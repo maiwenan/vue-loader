@@ -25,6 +25,7 @@
   "scripts": {
     "lint": "eslint lib test --fix",
     "test": "eslint lib && mocha --slow 5000 --timeout 10000",
+    "mytest": "mocha ./mytest/**/*.test.js --slow 5000 --timeout 0",
     "docs": "cd docs && gitbook install && gitbook serve",
     "docs:deploy": "bash ./docs/deploy.sh"
   },
